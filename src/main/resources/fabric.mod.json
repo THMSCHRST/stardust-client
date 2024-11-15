@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
+  "name": "Stardust Client",
   "id": "meteor-client",
-  "version": "${version}",
-  "description": "Based utility mod.",
+  "version": "0.0.2",
+  "description": "Stardust fork from Meteor Client.",
   "authors": [
     "MineGame159",
     "squidoodly",
-    "seasnail"
+    "seasnail",
+    "TomTom"
+
   ],
   "contact": {
     "homepage": "https://meteorclient.com",
@@ -16,7 +18,7 @@
     "discord": "https://meteorclient.com/discord"
   },
   "license": "GPL-3.0",
-  "icon": "assets/meteor-client/icon.png",
+  "icon": "assets/meteor-client/rect5.png",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -34,7 +36,7 @@
   "accessWidener": "meteor-client.accesswidener",
   "custom": {
     "meteor-client:devbuild": "${devbuild}",
-    "meteor-client:color": "145,61,226",
+    "meteor-client:color": "255,51,153",
     "meteor-client:commit": "${commit}",
     "modmenu": {
       "links": {

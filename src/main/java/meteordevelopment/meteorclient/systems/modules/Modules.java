@@ -578,6 +578,7 @@ public class Modules extends System<Modules> {
 
     private void initMisc() {
         add(new Swarm());
+        add(new Party());
         add(new AntiPacketKick());
         add(new AutoLog());
         add(new AutoReconnect());
